@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Local app data (do not commit personal chats or uploads)
+chat_sessions/*.json
+chat_sessions/_uploads/
+demos/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs / env secrets
+*.log
+.env
+.env.*

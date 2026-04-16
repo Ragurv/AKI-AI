@@ -1,0 +1,19 @@
+# =============================================================================
+# Local Dolphin chat — dependency checklist (no pip install required for scripts)
+# =============================================================================
+#
+# [x] Python 3.10+  →  python --version
+# [ ] Ollama        →  https://ollama.com/download  (install, then restart terminal)
+# [ ] Model         →  ollama pull dolphin-mistral
+#
+# Optional: after Ollama works, pin threads on CPU-only machines, e.g. PowerShell:
+#   $env:OLLAMA_NUM_THREAD = "8"
+#
+# Run:
+#   python cli_chat.py
+#   python role_chat.py --role-file roles\example_assistant.txt
+#   python web_chat.py
+#
+# =============================================================================
+# PyPI: none required for cli_chat / role_chat / web_chat (stdlib only).
+# =============================================================================
